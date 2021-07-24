@@ -3,29 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E421DDD26AA8961008FAFC4 /* FoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E421DDC26AA8961008FAFC4 /* FoodCollectionViewCell.swift */; };
+		2E421DE526AAB51E008FAFC4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E421DE426AAB51E008FAFC4 /* NetworkManager.swift */; };
+		2E421DE826AAB54E008FAFC4 /* FoodResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E421DE726AAB54E008FAFC4 /* FoodResponse.swift */; };
+		2E421DEE26ABF055008FAFC4 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E421DED26ABF055008FAFC4 /* Util.swift */; };
+		2E421DF126ABF458008FAFC4 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 2E421DF026ABF458008FAFC4 /* SDWebImage */; };
+		2E421DF326ABFEA5008FAFC4 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E421DF226ABFEA5008FAFC4 /* FavouritesViewController.swift */; };
 		2E82D20D26A9D80100975C90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E82D20C26A9D80100975C90 /* AppDelegate.swift */; };
 		2E82D20F26A9D80100975C90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E82D20E26A9D80100975C90 /* SceneDelegate.swift */; };
 		2E82D21126A9D80100975C90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E82D21026A9D80100975C90 /* ViewController.swift */; };
 		2E82D21426A9D80100975C90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E82D21226A9D80100975C90 /* Main.storyboard */; };
-		2E82D21726A9D80100975C90 /* FoodNation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E82D21526A9D80100975C90 /* FoodNation.xcdatamodeld */; };
 		2E82D21926A9D80400975C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E82D21826A9D80400975C90 /* Assets.xcassets */; };
 		2E82D21C26A9D80400975C90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E82D21A26A9D80400975C90 /* LaunchScreen.storyboard */; };
+		2EF2D5D126AC0F82003DFDF5 /* FavCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF2D5D026AC0F82003DFDF5 /* FavCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E421DDC26AA8961008FAFC4 /* FoodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewCell.swift; sourceTree = "<group>"; };
+		2E421DE426AAB51E008FAFC4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2E421DE726AAB54E008FAFC4 /* FoodResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodResponse.swift; sourceTree = "<group>"; };
+		2E421DED26ABF055008FAFC4 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		2E421DF226ABFEA5008FAFC4 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
 		2E82D20926A9D80100975C90 /* FoodNation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodNation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E82D20C26A9D80100975C90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E82D20E26A9D80100975C90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2E82D21026A9D80100975C90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2E82D21326A9D80100975C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2E82D21626A9D80100975C90 /* FoodNation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodNation.xcdatamodel; sourceTree = "<group>"; };
 		2E82D21826A9D80400975C90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E82D21B26A9D80400975C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E82D21D26A9D80400975C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EF2D5D026AC0F82003DFDF5 /* FavCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,12 +44,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E421DF126ABF458008FAFC4 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E421DE626AAB53C008FAFC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E421DE726AAB54E008FAFC4 /* FoodResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		2E82D20026A9D80100975C90 = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +78,45 @@
 		2E82D20B26A9D80100975C90 /* FoodNation */ = {
 			isa = PBXGroup;
 			children = (
+				2EF2D5D426AC274A003DFDF5 /* Utility */,
+				2EF2D5D326AC267C003DFDF5 /* Controller */,
+				2EF2D5D226AC264D003DFDF5 /* View */,
+				2E421DE626AAB53C008FAFC4 /* Model */,
 				2E82D20C26A9D80100975C90 /* AppDelegate.swift */,
 				2E82D20E26A9D80100975C90 /* SceneDelegate.swift */,
-				2E82D21026A9D80100975C90 /* ViewController.swift */,
-				2E82D21226A9D80100975C90 /* Main.storyboard */,
 				2E82D21826A9D80400975C90 /* Assets.xcassets */,
 				2E82D21A26A9D80400975C90 /* LaunchScreen.storyboard */,
 				2E82D21D26A9D80400975C90 /* Info.plist */,
-				2E82D21526A9D80100975C90 /* FoodNation.xcdatamodeld */,
 			);
 			path = FoodNation;
+			sourceTree = "<group>";
+		};
+		2EF2D5D226AC264D003DFDF5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E421DDC26AA8961008FAFC4 /* FoodCollectionViewCell.swift */,
+				2EF2D5D026AC0F82003DFDF5 /* FavCollectionViewCell.swift */,
+				2E82D21226A9D80100975C90 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2EF2D5D326AC267C003DFDF5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E82D21026A9D80100975C90 /* ViewController.swift */,
+				2E421DF226ABFEA5008FAFC4 /* FavouritesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2EF2D5D426AC274A003DFDF5 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				2E421DE426AAB51E008FAFC4 /* NetworkManager.swift */,
+				2E421DED26ABF055008FAFC4 /* Util.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +135,9 @@
 			dependencies = (
 			);
 			name = FoodNation;
+			packageProductDependencies = (
+				2E421DF026ABF458008FAFC4 /* SDWebImage */,
+			);
 			productName = FoodNation;
 			productReference = 2E82D20926A9D80100975C90 /* FoodNation.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +165,9 @@
 				Base,
 			);
 			mainGroup = 2E82D20026A9D80100975C90;
+			packageReferences = (
+				2E421DEF26ABF458008FAFC4 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 2E82D20A26A9D80100975C90 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,10 +195,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E82D21726A9D80100975C90 /* FoodNation.xcdatamodeld in Sources */,
+				2E421DE526AAB51E008FAFC4 /* NetworkManager.swift in Sources */,
+				2E421DEE26ABF055008FAFC4 /* Util.swift in Sources */,
+				2E421DDD26AA8961008FAFC4 /* FoodCollectionViewCell.swift in Sources */,
 				2E82D21126A9D80100975C90 /* ViewController.swift in Sources */,
+				2E421DE826AAB54E008FAFC4 /* FoodResponse.swift in Sources */,
 				2E82D20D26A9D80100975C90 /* AppDelegate.swift in Sources */,
+				2E421DF326ABFEA5008FAFC4 /* FavouritesViewController.swift in Sources */,
 				2E82D20F26A9D80100975C90 /* SceneDelegate.swift in Sources */,
+				2EF2D5D126AC0F82003DFDF5 /* FavCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +360,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.aakashsinha.FoodNation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,7 +379,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.aakashsinha.FoodNation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -346,18 +406,24 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCVersionGroup section */
-		2E82D21526A9D80100975C90 /* FoodNation.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				2E82D21626A9D80100975C90 /* FoodNation.xcdatamodel */,
-			);
-			currentVersion = 2E82D21626A9D80100975C90 /* FoodNation.xcdatamodel */;
-			path = FoodNation.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
+/* Begin XCRemoteSwiftPackageReference section */
+		2E421DEF26ABF458008FAFC4 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.11.1;
+			};
 		};
-/* End XCVersionGroup section */
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2E421DF026ABF458008FAFC4 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E421DEF26ABF458008FAFC4 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2E82D20126A9D80100975C90 /* Project object */;
 }
